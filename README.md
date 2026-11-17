@@ -1,6 +1,16 @@
+# Exército de Alameda
+Repositório inicial do aplicativo privado do Exército de Alameda.
 
-# Haikus for Codespaces
+## Estrutura
+- `app/`: aplicativo Flutter para Android e iOS.
+- `supabase/schema.sql`: estrutura inicial PostgreSQL/Supabase.
 
-This is a quick node project template for demoing Codespaces. It is based on the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
+## Começar
+1. Instale o Flutter.
+2. Entre na pasta `app` e execute `flutter pub get`.
+3. Crie um projeto Supabase.
+4. Revise e execute `supabase/schema.sql` no SQL Editor.
+5. Configure a conexão do aplicativo com o Supabase usando somente credenciais públicas apropriadas.
+6. Nunca envie senhas, arquivos `.env` ou a chave `service_role` para o GitHub.
 
-Point your browser to [Quickstart for GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart) for a tour of using Codespaces with this repo.
+Este é um ponto de partida, não uma versão pronta para produção. Autenticação, aprovação, permissões e políticas RLS precisam ser implementadas e testadas antes de cadastrar integrantes reais.
